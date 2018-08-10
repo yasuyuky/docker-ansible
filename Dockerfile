@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM alpine:3.8
 MAINTAINER Yasuyuki YAMADA <yasuyuki.ymd@gmail.com>
 
-RUN apt-get -y update && apt-get -y install openssh-server rsync ansible python3-pip
+RUN apk add --no-cache openssh-server rsync ansible py3-pip

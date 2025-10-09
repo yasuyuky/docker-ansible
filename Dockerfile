@@ -1,4 +1,4 @@
-FROM alpine:3.22.1
+FROM alpine:3.22.2
 MAINTAINER Yasuyuki YAMADA <yasuyuki.ymd@gmail.com>
 
 RUN apk add --no-cache openssh-server openssh-client rsync ansible py3-pip ca-certificates
